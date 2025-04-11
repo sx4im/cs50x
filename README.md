@@ -91,8 +91,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or would like to discuss anything about these solutions, feel free to reach out:
 
-- GitHub: [@your-username](https://github.com/sx4im)
-- Email: your.email@example.com
+- GitHub: [@sx4im](https://github.com/sx4im)
+- Email: [sx4imm@gmail.com](mailto:sx4imm@gmail.com)
 
 ---
 
