@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 flex-grow-1">
+        <h1>Featured Projects at Microsoft</h1>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <svg class="project-image" viewBox="0 0 200 120">
+                            <rect width="200" height="120" fill="#0078d4"/>
+                            <text x="100" y="60" text-anchor="middle" fill="#ffffff">Azure Portal</text>
+                        </svg>
+                        <h5 class="card-title">Azure Management Portal</h5>
+                        <p class="card-text">Led frontend development for key features in the Azure Management Portal</p>
+                        <div class="tech-stack">
+                            <span class="badge bg-primary">React</span>
+                            <span class="badge bg-secondary">TypeScript</span>
+                            <span class="badge bg-success">Azure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <svg class="project-image" viewBox="0 0 200 120">
+                            <rect width="200" height="120" fill="#e9ecef"/>
+                            <text x="100" y="60" text-anchor="middle" fill="#6c757d">Project 2</text>
+                        </svg>
+                        <h5 class="card-title">Personal Website</h5>
+                        <p class="card-text">A responsive website built with HTML, CSS, and JavaScript</p>
+                        <div class="tech-stack">
+                            <span class="badge bg-primary">HTML</span>
+                            <span class="badge bg-secondary">CSS</span>
+                            <span class="badge bg-success">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <svg class="project-image" viewBox="0 0 200 120">
+                            <rect width="200" height="120" fill="#e9ecef"/>
+                            <text x="100" y="60" text-anchor="middle" fill="#6c757d">Project 3</text>
+                        </svg>
+                        <h5 class="card-title">To-Do List App</h5>
+                        <p class="card-text">A simple to-do list app built with Python and Flask</p>
+                        <div class="tech-stack">
+                            <span class="badge bg-primary">Python</span>
+                            <span class="badge bg-secondary">Flask</span>
+                            <span class="badge bg-success">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

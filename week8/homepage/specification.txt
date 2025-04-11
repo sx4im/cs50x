@@ -1,0 +1,41 @@
+HTML Tags Used:
+1. <nav> - Navigation bar
+2. <header> - Hero section
+3. <main> - Main content area
+4. <footer> - Footer section
+5. <section> - Content sections
+6. <article> - About page content
+7. <aside> - Skills sidebar
+8. <form> - Contact form
+9. <input> - Form inputs
+10. <textarea> - Message input area
+11. <button> - Interactive buttons
+12. <ul> - Unordered lists
+13. <div> - Container elements
+
+CSS Properties Used:
+1. background-color - Sets background colors
+2. color - Sets text colors
+3. padding - Controls spacing inside elements
+4. margin - Controls spacing between elements
+5. box-shadow - Adds shadow effects
+6. transform - Creates hover animations
+7. transition - Smooths animations
+8. border-radius - Rounds corners
+9. font-family - Sets typefaces
+10. text-align - Controls text alignment
+
+JavaScript Features:
+- Dynamic greeting that changes based on time of day
+- Interactive "Learn More" button with alert message
+- Contact form validation with feedback
+- Form submission handling and reset
+
+Bootstrap Features:
+- Responsive navbar with collapsible menu for mobile
+- Grid system for layout (container, row, col classes)
+- Card components for projects and content
+- Responsive utilities (my-5, py-4 etc.)
+- Form styling and components
+- Button styling
+
